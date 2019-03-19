@@ -38,20 +38,6 @@ namespace QuickAndDirty
             return product;
         }
 
-        /*
-        public JsonResult GetSomething()
-        {
-            try
-            {
-                List<Object> someObjects = Provider.GetSomething();
-                return Json(someObjects, JsonRequestBehavior.AllowGet);
-            }
-            catch (Exception ex)
-            {
-            }
-        }
-        */
-
 
         static async Task<string> GetAllData(VehicleQueryComplete Query, string URL)
         {
